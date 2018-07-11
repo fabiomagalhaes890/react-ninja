@@ -5,7 +5,7 @@ import CreateReactClass from 'create-react-class'
 
 const App = CreateReactClass({
     render: function() {
-        return <div>Aplicação</div>
+        return <h1>Aplicação</h1>
     }
 })
 
