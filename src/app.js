@@ -3,10 +3,10 @@
 import React from 'react'
 import CreateReactClass from 'create-react-class'
 
-var Title = CreateReactClass({
+const App = CreateReactClass({
     render: function() {
-        return <h1>Titulo</h1>
+        return <div>Aplicação</div>
     }
 })
 
-export default Title
+export default App
