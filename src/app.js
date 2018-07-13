@@ -1,13 +1,13 @@
 'use strict'
 
 import React, { Component } from 'react'
-import Form from './form'
+import Form2 from './form2'
 
 class App extends Component {
   render () {
     return (
       <div>
-        <Form />
+        <Form2 />
       </div>
     )
   }
