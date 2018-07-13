@@ -1,13 +1,13 @@
 'use strict'
 
 import React, { Component } from 'react'
-import TextArea from './textarea'
+import InputCheck from './input-check';
 
 class App extends Component {
   render () {
     return (
       <div>
-        <TextArea />
+        <InputCheck name='check'/>
       </div>
     )
   }
